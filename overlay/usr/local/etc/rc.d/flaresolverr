@@ -22,9 +22,9 @@ start_precmd="flaresolverr_precmd"
 PATH=$PATH:/usr/local/bin
 
 flaresolverr_precmd() {
-        cd /usr/local/share/FlareSolverr
-        export PUPPETEER_EXECUTABLE_PATH=/usr/local/bin/chrome
-        export HOST=0.0.0.0
+	cd /usr/local/share/FlareSolverr
+	export PUPPETEER_EXECUTABLE_PATH=/usr/local/bin/chrome
+	export HOST=0.0.0.0
 }
 
 command="/usr/sbin/daemon"

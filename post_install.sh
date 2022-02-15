@@ -19,4 +19,4 @@ sysrc flaresolverr_enable=YES
 service flaresolverr start
 
 echo -e "FlareSolveer now installed.\n" > /root/PLUGIN_INFO
-echo -e "\nPoint your Jackett or arr to $IP_ADDRESS:8191\n" >> /root/PLUGIN_INFO
+echo -e "\nPoint your Jackett or Prowlarr to $IP_ADDRESS:8191\n" >> /root/PLUGIN_INFO
