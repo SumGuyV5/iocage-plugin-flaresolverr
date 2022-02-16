@@ -2,7 +2,7 @@
 IP_ADDRESS=$(ifconfig | grep -E 'inet.[0-9]' | grep -v '127.0.0.1' | awk '{ print $2}')
 
 cd /usr/local/share
-git clone https://github.com/FlareSolverr/FlareSolverr.git
+git clone https://github.com/FlareSolverr/FlareSolverr.git -b v2.1.0
 cd FlareSolverr
 
 export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
